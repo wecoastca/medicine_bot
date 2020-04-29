@@ -1,0 +1,25 @@
+{
+  "name": "tg_bot",
+  "version": "1.0.0",
+  "description": "tg medicine bot",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "author": "Anton Shishov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wecoastca/medicine_bot.git"
+  },
+  "dependencies": {
+    "socks5-https-client": "^1.2.1",
+    "telegraf": "^3.38.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "https-proxy-agent": "^5.0.0",
+    "telegraf-inline-menu": "^4.0.1"
+  }
+}
